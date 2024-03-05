@@ -4072,6 +4072,10 @@ figcaption {
   height: 100%;
 }
 
+.main-logo-embed img {
+  height: 80px;
+}
+
 .heading {
   letter-spacing: -0.05rem;
   font-size: 4rem;
