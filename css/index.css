@@ -269,7 +269,7 @@ html {
 
 body {
   min-height: 100%;
-  color: #333;
+  color: #fff;
   background-color: #fff;
   margin: 0;
   font-family: Arial, sans-serif;
@@ -1300,6 +1300,7 @@ textarea.w-select {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   tap-highlight-color: rgba(0, 0, 0, 0);
   background: #ddd;
+  color: #000;
   position: relative;
 }
 
@@ -2231,6 +2232,10 @@ textarea.w-select {
   --light-blue: #afd2da;
   --very-light-blue: #edfafc;
   --very-light-grey: #f6fafb;
+
+  --very-ok: #54a1fd;
+  --very-main: #130c50;
+  --very-second: #1717d6;
 }
 
 .w-layout-grid {
@@ -2294,7 +2299,7 @@ textarea.w-select {
 }
 
 body {
-  color: var(--xdark-blue);
+  /* color: var(--xdark-blue); */
   background-color: #54a1fd;
   background-color: #130c50;
   background-color: #1717d6;
@@ -3174,7 +3179,8 @@ figcaption {
 }
 
 .button.is-link {
-  color: var(--black);
+  /* color: var(--black); */
+  color: var(--white);
   background-color: rgba(0, 0, 0, 0);
   border-style: none;
   padding: 0.25rem 0;
@@ -3198,6 +3204,7 @@ figcaption {
   grid-column-gap: 0.5rem;
   grid-row-gap: 0.5rem;
   border-bottom-style: solid;
+  border-color: var(--white);
   border-radius: 0;
   align-items: center;
   font-family: Kern Standard Medium, sans-serif;
@@ -3228,14 +3235,14 @@ figcaption {
 
 .button.is-secondary {
   color: var(--xdark-blue);
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #fff;
   border-style: solid;
 }
 
 .button.is-secondary:hover {
   background-color: var(--xdark-blue);
   color: var(--white);
-  border-color: #1c2d37;
+  border-color: #fff;
 }
 
 .button.is-secondary.is-alternate {
@@ -3956,7 +3963,7 @@ figcaption {
 }
 
 .navbar_link {
-  color: #1c2d37;
+  color: #fff;
   border-bottom: 1px solid rgba(0, 0, 0, 0);
   padding: 1.5rem 0;
   line-height: 0;
@@ -4055,7 +4062,7 @@ figcaption {
   height: auto;
   min-height: 5rem;
   mix-blend-mode: normal;
-  background-color: #fff;
+  background-color: var(--very-main);
   align-items: center;
   padding-left: 5%;
   padding-right: 5%;
@@ -4297,9 +4304,10 @@ figcaption {
 
 .home-about-1-section {
   z-index: 1;
-  background-color: var(--white);
+  background-color: var(--very-main);
   border-radius: 60px;
   margin-top: -5vh;
+  color: #fff;
   position: relative;
 }
 
@@ -4395,6 +4403,7 @@ figcaption {
   height: 100%;
   object-fit: cover;
   position: absolute;
+  opacity: 0.05;
   top: 0%;
   bottom: 0%;
   left: 0%;
@@ -4471,10 +4480,11 @@ figcaption {
 }
 
 .home-about-3-section {
-  background-color: var(--very-light-blue);
+  background-color: var(--very-second);
   margin-top: -3rem;
   position: relative;
   overflow: hidden;
+  color: #fff;
 }
 
 .home-about-2-shards {
@@ -4657,6 +4667,7 @@ figcaption {
   width: 100%;
   background-color: var(--white);
   border-radius: 60px;
+  color: #000;
   margin-top: -4vh;
   position: relative;
 }
@@ -4670,6 +4681,7 @@ figcaption {
   display: flex;
   position: relative;
   overflow: hidden;
+  color: #000;
 }
 
 .blog-spacer {
@@ -4702,7 +4714,7 @@ figcaption {
   z-index: -1;
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
-  background-color: #fff;
+  background-color: #0d0f42;
   position: absolute;
   top: 0%;
   bottom: 0%;
@@ -6020,7 +6032,7 @@ figcaption {
 }
 
 .footer_content {
-  background-color: var(--white);
+  background-color: var(--very-main);
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
 }
@@ -6625,7 +6637,7 @@ figcaption {
 }
 
 .rich-text-case-study-skill-regular li {
-  color: var(--dark-blue);
+  color: var(--white);
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
