@@ -6163,6 +6163,7 @@ figcaption {
 .fs-cc-banner_text {
   max-width: 60%;
   margin-right: 3rem;
+  color: #000;
 }
 
 .fs-cc-banner_text-link {
@@ -9602,6 +9603,6 @@ figcaption {
   font-display: swap;
 }
 
-.about .footer_content {
+:is(.about, .showcase, .articles) .footer_content {
   margin-top: 50px;
 }
