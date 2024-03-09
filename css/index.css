@@ -4626,7 +4626,7 @@ figcaption {
 .testimonial10_arrow {
   width: 4.875rem;
   height: 4.875rem;
-  border: 1px solid var(--dark-blue);
+  border: 1px solid var(--white);
   border-radius: 100%;
   justify-content: center;
   align-items: center;
@@ -4643,6 +4643,10 @@ figcaption {
   justify-content: center;
   align-items: center;
   display: flex;
+}
+
+.testimonial10_arrow svg path {
+  stroke: var(--white);
 }
 
 .testimonial10_slide-nav {
@@ -5835,7 +5839,7 @@ figcaption {
 
 .about_top-section {
   height: 105vh;
-  background-color: var(--very-light-blue);
+  /* background-color: var(--very-light-blue); */
   justify-content: center;
   align-items: center;
   display: flex;
@@ -6032,7 +6036,7 @@ figcaption {
 }
 
 .footer_content {
-  background-color: var(--very-main);
+  background-color: #0d0f42;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
 }
@@ -9596,4 +9600,8 @@ figcaption {
   font-weight: 400;
   font-style: normal;
   font-display: swap;
+}
+
+.about .footer_content {
+  margin-top: 50px;
 }
